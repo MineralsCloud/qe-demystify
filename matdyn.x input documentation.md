@@ -1,5 +1,7 @@
 # `matdyn.x` input documentation
 
+This documentation is read from the source code `q-e/PHonon/PH/matdyn.f90`.
+
 This program calculates the phonon frequencies for a list of generic q vectors starting from the interatomic force constants generated from the dynamical matrices as written by DFPT phonon code through the companion program `q2r.x`.
 
 `matdyn.x` can generate a supercell of the original cell for mass approximation calculation. If supercell data are not specified in input, the unit cell, lattice vectors, atom types and positions are read from the force constant file.
