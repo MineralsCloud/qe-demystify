@@ -6,7 +6,7 @@
 
 ### Header
 
-In Quantum ESPRESSO’s `PHonon/examples` , there is an example `alas.444.fc` for showing the force constant output. All the following information are written in `/path/to/qe-6.3/PHonon/PH/matdyn.f90`.
+In Quantum ESPRESSO’s [`/QHA/Examples/AlAs`](https://github.com/QEF/q-e/blob/7d5cebcf1250114756b88c6064ebe82e6f8fd835/QHA/Examples/AlAs/alas444.fc) , there is an example `alas.444.fc` for showing the force constant output. All the following information are written in `/path/to/qe-6.3/PHonon/PH/matdyn.f90`.
 
 The first line,
 
