@@ -19,9 +19,5 @@ function wsweight(r,rws,nrws)
 where
 
 - `r` means a real space vector, a `real` vector of length `3`;
-- `rws` means Wigner-Seitz real space vectors, a `real` matrix of size `(0:3, nrws)`;
-- `nrws` means the number of Wigner-Seitz real space vectors, an `integer`.
-
-rws(0:3,nrwsx)   *! nearest neighbor list, rws(0,\*) = norm^2*
-
-*number of nearest neighbor*
+- `rws` means the nearest Wigner-Seitz neighbor list, where `rws(0,*) = norm^2`, a `real` matrix of size `(0:3, nrws)`;
+- `nrws` means the number of nearest Wigner-Seitz neighbor, an `integer`.
