@@ -152,14 +152,14 @@ If `readtau` is `.true.`, atom types and positions in the supercell follow:
 (tau(i,na),i=1,3), ityp(na)
 ```
 
-If `q_in_band_form` and `dos` is `.false.` then
+If `q_in_band_form` is `.true.` and `dos` is `.false.` then
 
 ```fortran
 nq     ! number of q points
 (q(i,n),i=1,3), nptq   ! nptq is the number of points between this point and the next. These points are automatically generated. the q points are given in Cartesian coordinates, 2pi/a units (a=lattice parameters)
 ```
 
-else, if only `dos` is `.false.`, then
+else, if `q_in_band_form` and `dos` are `.false.`, then
 
 ```fortran
 nq      ! number of q-points
