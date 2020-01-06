@@ -6,7 +6,7 @@
 
 ### Header
 
-In Quantum ESPRESSO’s [`/QHA/Examples/AlAs`](https://github.com/QEF/q-e/blob/7d5cebcf1250114756b88c6064ebe82e6f8fd835/QHA/Examples/AlAs/alas444.fc) , there is an example `alas.444.fc` for showing the force constant output. All the following information are written in `/path/to/qe-6.3/PHonon/PH/matdyn.f90`.
+In Quantum ESPRESSO's [`/QHA/Examples/AlAs`](https://github.com/QEF/q-e/blob/7d5cebcf1250114756b88c6064ebe82e6f8fd835/QHA/Examples/AlAs/alas444.fc) , there is an example `alas.444.fc` for showing the force constant output. All the following information are written in `/path/to/qe-6.3/PHonon/PH/matdyn.f90`.
 
 The first line,
 
@@ -25,7 +25,7 @@ The next 2 lines,
            2  'As '    68285.402620549852  
 ```
 
-are the type of atom, the atom’s name, and the atomic mass in Rydberg unit. The calculation method is like this: assume atomic mass in SI unit `AMU_SI` is `1.660538782E-27` kg, the electronic mass in SI unit `ELECTRONMASS_SI` is `9.10938215E-31` kg. Then the atomic mass in Hatree unit `AMU_AU` is `AMU_SI / ELECTRONMASS_SI`, while in Rydberg unit is half of the`AMU_AU`. So the number written in your `ph.x` input file is timed by `911.4442421322725` in the force constant output. Those constants are defined in `/path/to/qe-6.3/Modules/constants.f90`.
+are the types of atom, the atom's name, and the atomic mass in Rydberg unit. The calculation method is like this: assume atomic mass in SI unit `AMU_SI` is `1.660538782E-27` kg, the electronic mass in SI unit `ELECTRONMASS_SI` is `9.10938215E-31` kg. Then the atomic mass in Hatree unit `AMU_AU` is `AMU_SI / ELECTRONMASS_SI`, while in Rydberg unit is half of the`AMU_AU`. So the number written in your `ph.x` input file is timed by `911.4442421322725` in the force constant output. Those constants are defined in `/path/to/qe-6.3/Modules/constants.f90`.
 
 The next 2 lines, are the atomic positions in the cell:
 
