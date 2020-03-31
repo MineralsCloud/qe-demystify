@@ -169,3 +169,5 @@ nq      ! number of q-points
 ```
 
 For low-symmetry crystals, specify twice `q = 0` in the list if you want to have `q = 0` results for two different directions.
+
+The output q-points' coordinates of `matdyn.x` are in Cartesian coordinates.
