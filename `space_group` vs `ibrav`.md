@@ -11,5 +11,5 @@ ITA lists and what Vesta, etc., generates.
 
 If you use `ibrav` and want to have the same result as the `space_group` one, list the atoms
 in the primitive cell in `ATOMIC_POSITIONS` card with option `crystal`. This is because the
-cell in
+cells in
 [`ibrav` are all primitive cells](https://www.quantum-espresso.org/Doc/INPUT_PW.html#idm199).
