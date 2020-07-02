@@ -5,7 +5,8 @@ input, i.e., `space_group` and `ibrav`.
 
 With `space_group` specified, `nat` should be the number of inequivalent atoms, that is, the
 atoms in an asymmetric unit. The `ATOMIC_POSITIONS` card should have option `crystal_sg` and
-also list inequivalent atoms. The outputs, generated atoms and symmetry operations, are
+also list inequivalent atoms (not atoms in the primitive cell).
+The outputs, generated atoms and symmetry operations, are
 those in the primitive cell. So it may have fewer atoms and symmetry operations than what
 ITA lists and what Vesta, etc., generates.
 
