@@ -46,7 +46,7 @@ which are `nr1`, `nr2`, and `nr3`, respectively.
 
 ### Body
 
-Now we come to the most important part: the force constant in the body.
+Now we come to the most important part: the force constant in the body. The force constants are in units of Rydberg/Bohr^2, of which there is some talk occasionally in the mailing list: [1](https://lists.quantum-espresso.org/pipermail/users/2009-July/013307.html), [2](http://www.democritos.it/pipermail/pw_forum/2009-December/015455.html)
 
 Let’s come to the first line,
 
