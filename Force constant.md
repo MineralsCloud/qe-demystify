@@ -46,7 +46,7 @@ which are `nr1`, `nr2`, and `nr3`, respectively.
 
 ### Body
 
-Now we come to the most important part: the force constant in the body.
+Now we come to the most important part: the force constant in the body. The force constants are in units of Rydberg/Bohr², of which there is some talk occasionally in the mailing list, see: [1](https://lists.quantum-espresso.org/pipermail/users/2009-July/013307.html) and [2](http://www.democritos.it/pipermail/pw_forum/2009-December/015455.html).
 
 Let’s come to the first line,
 
@@ -64,4 +64,4 @@ After a number of lines we will have
 
 Between these 2 lines, are the force constant on each FFT grid-point (labeled by the first 3 indices), i.e., you will have $4\times 4\times 4 = 64$ lines between them.
 
-The final force constant within one file will have shape `(nr1,nr2,nr3,3,3,nat,nat)`. In our $\ce{AlAs}$ case, this will be `(4,4,4,3,3,2,2)` .
+The final force constant within one file will have shape `(nr1,nr2,nr3,3,3,nat,nat)`. In our $\ce{AlAs}$ case, this will be `(4,4,4,3,3,2,2)`.
