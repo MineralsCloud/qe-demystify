@@ -25,3 +25,7 @@ and [this one](https://github.com/QEF/q-e/blob/2afe9ad/PW/examples/example01/ref
 
 So if you calculate the reciprocal points using another code, you may want to time
 your result with `alat/2pi`.
+
+You may find the weights of reciprocal points add up to $2$, not $1$. According to
+[this material](https://bkoz.seas.harvard.edu/files/bkoz/files/lab_2_assignment_2018.pdf),
+it is an idiosyncrasy (feature) of this program. Don't worry about it.
